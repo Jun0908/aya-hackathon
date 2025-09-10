@@ -40,13 +40,21 @@ export const character: Character = {
           type: 'stdio',
           command: 'node',
           // ← あなたの mcp-server のビルド済みエントリに変更（絶対パス推奨）
-          args: ['C:/Users/j_kaw/Desktop/mcp-server2/dist/src/index.js'], // ← 実ファイルに置換
-          cwd: 'C:/Users/j_kaw/Desktop/mcp-server2', 
+          args: ['C:/Users/j_kaw/Desktop/mcp-erc8004/dist/index.js'], // ← 実ファイルに置換
+          cwd: 'C:/Users/j_kaw/Desktop/mcp-erc8004',  
           //allowedTools: ['mint_simple', 'mint_to'], 
           // 任意：使わせるツールを限定したい場合
           // allowedTools: ['mint_simple', 'mint_to'],
           //allowedTools: ['verify_temp_local', 'format_solidity_calldata'],
-          
+          allowedTools: [
+          'register_agent',
+          'authorize_feedback',
+          'request_validation',
+          'submit_validation_response',
+          'resolve_agent_by_address',
+          'resolve_agent_by_domain',
+          'get_validation_response'
+         ],
         },
       },
     },
