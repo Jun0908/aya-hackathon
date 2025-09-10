@@ -1,0 +1,7 @@
+{
+  "contracts": {
+    "identity_registry": "0xd9145CCE52D386f254917e481eB44e9943F39138",
+    "reputation_registry": "0x37efb3dc3875d9ad156b1c4c2e6472a9d82114f3",
+    "validation_registry": "0xaed8fe5f7c2bf07f7da9d2a6125a98918ffb647f"
+  }
+}
